@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/funcoes.js"></script>
+</head>
+
+<body class="has-fixed-sidenav"> 
+	<div class="block">
+		<nav>
+			<div id="nav-mobile" class="nav-wrapper blue">
+				<!--<img src="image/logo/LogoEducaHack.png" class=" logo body brand-logo">-->
+			</div>
+		</nav>
+		<main class="main">
+            <form name="frm">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m7 push-m3">
+                        <div class="card grey lighten-5 center">
+                            <p id="questao1" name="questao1">a </p>
+                            <p id="questao2" name="questao2">2- </p>
+                            <p id="questao3" name="questao3">3- </p>
+                            <p id="questao4" name="questao4">4- </p>
+                            <p id="questao5" name="questao5">5- </p>
+                            <p id="questao6" name="questao6">6- </p>
+                            <p id="questao7" name="questao7">7- </p>
+                            <p id="questao8" name="questao8">8- </p>
+                            <p id="questao9" name="questao9">9- </p>
+                            <p id="questao10" name="questao10">10- </p>
+                        </div>                
+                    </div>
+                    <div class="input-field col s12 m7 push-m3">
+                        <input id="EnviaPalavra" type="text" class="validate">
+                        <label for="EnviaPalavra">Insira a palavra</label>
+                    </div>
+                    <div class ="col s12 m7 push-m3">
+                        <a class="waves-effect waves-light btn blue z-depth-2" onclick="jogoConhece()">Enviar</a>
+                    </div>
+                </div>
+            </div>  
+            </form>  
+		</main>
+		<footer class="page-footer blue">
+			<div class="footer-copyright">
+				<div class="container center">
+					&copy;2020 Copyright EducaHack
+				</div>
+			</div>
+		</footer>
+	</div>
+	    <script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.scrollspy').scrollSpy();
+			});
+		</script>
+</body>
+</html>
